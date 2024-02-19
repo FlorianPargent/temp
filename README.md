@@ -18,3 +18,20 @@ format:
 ```
 quarto publish gh-pages document.qmd
 ```
+
+- You can use [quarto-webr](https://github.com/coatless/quarto-webr) to include code cells that run R in the browser:
+    - install quarto extension:
+    ```
+    quarto add coatless/quarto-webr
+    ```
+    - add webr to the yaml header of the .qmd document:
+    ```
+    filters:
+      - webr
+    ```
+    - add webr code chunks to .qmd document:
+    ```
+      ```{webr}
+      ```
+    ```
+    - it seems like `embed-resources: true` destroys the webr html buttons

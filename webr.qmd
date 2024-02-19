@@ -1,0 +1,46 @@
+---
+title: "R im Browser mit webr"
+author: "Florian Pargent"
+lang: de
+date: last-modified
+date-format: "DD.MM.YYYY, HH:mm"
+format: html
+filters:
+  - webr
+---
+
+---
+
+## R Konsole:
+
+```{webr}
+
+```
+
+---
+
+## Anleitung:
+
+Mit **webr**[^1] kannst du einfache R-Befehle oder kurze Skripte direkt im Browser ausprobieren, z.B.:
+
+```{webr}
+n <- 100
+x <- rnorm(n, mean = 3, sd = 1)
+y <- 2 + 0.5 * x + rnorm(n, mean = 0, sd = 0.1)
+plot(x, y)
+```
+
+R Pakete können installiert werden, z.B.:
+```{webr}
+pkg <- "pwr"
+webr::install(pkg)
+library(pkg, character.only = TRUE)
+```
+
+
+Aktuelle R Version:
+```{r}
+R.version$version.string
+```
+
+[^1]: Diese Seite verwendet [webr für Quarto](https://github.com/coatless/quarto-webr).
