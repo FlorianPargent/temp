@@ -4,20 +4,13 @@
     "href": "aufgabe_1.html",
     "title": "Aufgabe 1",
     "section": "",
-    "text": "Version 1Version 2Version 3\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 1.2439119.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist -0.3260457.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 1.8122237.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Version 1Version 2Version 3\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 1.6938702.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist -0.8086684.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 0.9479797.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Showcase Aufgaben",
+    "title": "Dynamische Statistikaufgaben mit Quarto und webR",
     "section": "",
     "text": "Hier geht es zu Aufgabe 1"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
