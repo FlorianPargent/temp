@@ -1,0 +1,12 @@
+
+```{r}
+x <- rnorm(1)
+```
+
+Der Wert für x ist `r x`.
+
+```{r}
+#| echo: false
+saveRDS(x, file = paste0("www/aufgabe_1_version_", vers, ".rds"))
+```
+

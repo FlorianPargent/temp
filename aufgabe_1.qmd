@@ -1,0 +1,57 @@
+---
+title: "Aufgabe 1"
+filters:
+  - webr
+webr:
+  packages: ['pwr']
+  autoload-packages: false
+---
+
+::: {.panel-tabset}
+
+## Version 1
+
+```{r}
+#| echo: false
+vers <- 1
+```
+
+{{< include _aufgabe_1.qmd >}}
+
+```{webr-r}
+x <- readRDS(url("https://florianpargent.github.io/temp/www/aufgabe_1_version_1.rds"))
+library(pwr)
+pwr.t.test(n = 100, d = x)
+```
+
+## Version 2
+
+```{r}
+#| echo: false
+vers <- 2
+```
+
+{{< include _aufgabe_1.qmd >}}
+
+```{webr-r}
+x <- readRDS(url("https://florianpargent.github.io/temp/www/aufgabe_1_version_2.rds"))
+library(pwr)
+pwr.t.test(n = 100, d = x)
+```
+
+## Version 3
+
+```{r}
+#| echo: false
+vers <- 3
+```
+
+{{< include _aufgabe_1.qmd >}}
+
+```{webr-r}
+x <- readRDS(url("https://florianpargent.github.io/temp/www/aufgabe_1_version_3.rds"))
+library(pwr)
+pwr.t.test(n = 100, d = x)
+```
+
+:::

@@ -1,0 +1,7 @@
+---
+title: "Dynamische Statistikaufgaben mit Quarto und webR"
+resources: "www/"
+---
+
+[Hier geht es zu Aufgabe 1](aufgabe_1.qmd)
+
