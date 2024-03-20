@@ -251,7 +251,7 @@ globalThis.qwebrPackageRepoURLS = ['https://repo.r-wasm.org/'];
 
 // Check to see if we have an empty array, if we do set to skip the installation.
 globalThis.qwebrSetupRPackages = !(qwebrInstallRPackagesList.indexOf("") !== -1);
-globalThis.qwebrAutoloadRPackages = true;
+globalThis.qwebrAutoloadRPackages = false;
 
 // Display a startup message?
 globalThis.qwebrShowStartupMessage = true;
@@ -266,7 +266,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"results":"markup","context":"setup","classes":"","label":"unnamed-chunk-1","warning":"true","out-width":"700px","output":"true","autorun":"true","read-only":"false","dpi":72,"comment":"","fig-cap":"","fig-width":7,"fig-height":5,"out-height":"","message":"true"},"code":"x <- readRDS(url(\"https://florianpargent.github.io/temp/www/aufgabe_1_version_1.rds\"))","id":1},{"options":{"results":"markup","context":"interactive","classes":"","label":"unnamed-chunk-2","warning":"true","out-width":"700px","output":"true","autorun":"true","read-only":"false","dpi":72,"comment":"","fig-cap":"","fig-width":7,"fig-height":5,"out-height":"","message":"true"},"code":"pwr.t.test(n = 100, d = x)","id":2},{"options":{"results":"markup","context":"setup","classes":"","label":"unnamed-chunk-3","warning":"true","out-width":"700px","output":"true","autorun":"true","read-only":"false","dpi":72,"comment":"","fig-cap":"","fig-width":7,"fig-height":5,"out-height":"","message":"true"},"code":"x <- readRDS(url(\"https://florianpargent.github.io/temp/www/aufgabe_1_version_2.rds\"))","id":3},{"options":{"results":"markup","context":"interactive","classes":"","label":"unnamed-chunk-4","warning":"true","out-width":"700px","output":"true","autorun":"true","read-only":"false","dpi":72,"comment":"","fig-cap":"","fig-width":7,"fig-height":5,"out-height":"","message":"true"},"code":"pwr.t.test(n = 100, d = x)","id":4},{"options":{"results":"markup","context":"setup","classes":"","label":"unnamed-chunk-5","warning":"true","out-width":"700px","output":"true","autorun":"true","read-only":"false","dpi":72,"comment":"","fig-cap":"","fig-width":7,"fig-height":5,"out-height":"","message":"true"},"code":"x <- readRDS(url(\"https://florianpargent.github.io/temp/www/aufgabe_1_version_3.rds\"))","id":5},{"options":{"results":"markup","context":"interactive","classes":"","label":"unnamed-chunk-6","warning":"true","out-width":"700px","output":"true","autorun":"true","read-only":"false","dpi":72,"comment":"","fig-cap":"","fig-width":7,"fig-height":5,"out-height":"","message":"true"},"code":"pwr.t.test(n = 100, d = x)","id":6}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"fig-height":5,"comment":"","output":"true","results":"markup","label":"unnamed-chunk-1","fig-cap":"","classes":"","read-only":"false","dpi":72,"message":"true","out-height":"","autorun":"false","context":"interactive","fig-width":7,"warning":"true","out-width":"700px"},"code":"x <- readRDS(url(\"https://florianpargent.github.io/temp/www/aufgabe_1_version_1.rds\"))\nlibrary(pwr)\npwr.t.test(n = 100, d = x)"},{"id":2,"options":{"fig-height":5,"comment":"","output":"true","results":"markup","label":"unnamed-chunk-2","fig-cap":"","classes":"","read-only":"false","dpi":72,"message":"true","out-height":"","autorun":"true","context":"interactive","fig-width":7,"warning":"true","out-width":"700px"},"code":"pwr.t.test(n = 100, d = x)"},{"id":3,"options":{"fig-height":5,"comment":"","output":"true","results":"markup","label":"unnamed-chunk-3","fig-cap":"","classes":"","read-only":"false","dpi":72,"message":"true","out-height":"","autorun":"false","context":"interactive","fig-width":7,"warning":"true","out-width":"700px"},"code":"x <- readRDS(url(\"https://florianpargent.github.io/temp/www/aufgabe_1_version_2.rds\"))\nlibrary(pwr)\npwr.t.test(n = 100, d = x)"},{"id":4,"options":{"fig-height":5,"comment":"","output":"true","results":"markup","label":"unnamed-chunk-4","fig-cap":"","classes":"","read-only":"false","dpi":72,"message":"true","out-height":"","autorun":"false","context":"interactive","fig-width":7,"warning":"true","out-width":"700px"},"code":"x <- readRDS(url(\"https://florianpargent.github.io/temp/www/aufgabe_1_version_3.rds\"))\nlibrary(pwr)\npwr.t.test(n = 100, d = x)"}];
 
 </script>
 <script type="module">
@@ -1229,7 +1229,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Der Wert für x ist 1.2879602.</p>
+<p>Der Wert für x ist 1.2439119.</p>
 <div id="qwebr-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div id="qwebr-insertion-location-2"></div>
@@ -1239,20 +1239,16 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Der Wert für x ist -0.1189476.</p>
+<p>Der Wert für x ist -0.3260457.</p>
 <div id="qwebr-insertion-location-3"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Der Wert für x ist 0.1465983.</p>
-<div id="qwebr-insertion-location-5"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<div id="qwebr-insertion-location-6"></div>
+<p>Der Wert für x ist 1.8122237.</p>
+<div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
 </div>
