@@ -4,7 +4,7 @@
     "href": "aufgabe_1.html",
     "title": "Aufgabe 1",
     "section": "",
-    "text": "Version 1Version 2Version 3\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 1.6938702.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist -0.8086684.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 0.9479797.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Version 1Version 2Version 3\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 1.156156.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 0.5618642.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 1.3433535.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "index.html",
