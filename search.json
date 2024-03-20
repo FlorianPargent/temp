@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "aufgabe_1.html",
+    "href": "aufgabe_1.html",
+    "title": "Aufgabe 1",
+    "section": "",
+    "text": "Version 1Version 2Version 3\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist -0.2231111.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist -0.0778613.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nx &lt;- rnorm(1)\n\nDer Wert für x ist 0.3659393.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Showcase Aufgaben",
+    "section": "",
+    "text": "Hier geht es zu Aufgabe 1"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
